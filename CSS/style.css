@@ -1,0 +1,58 @@
+/* navbar */
+
+
+.center a {
+    color: #ed560b;
+    padding: 40px;
+    font-size: 45px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: heavy;
+  
+  }
+  
+  .center {
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .center {
+    width: 90%;
+  }
+  
+
+/* top section */
+
+
+/* bottom section */
+
+  
+  /* footer */
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    background: #3a3329;
+    padding: 0px 60px;
+    vertical-align: bottom;
+  
+  }
+  
+  footer {
+    clear: both;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    
+  }
+  
+  .footer p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+  }
+  body { 
+    margin: 0; 
+  }
+  
