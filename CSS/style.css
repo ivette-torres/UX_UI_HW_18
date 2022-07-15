@@ -91,11 +91,40 @@ h4 {
 }
 
 /* bottom section coded using CSS Grid 18.2-CSS-Grids*/
-.workGrid{
+.workContainer{}
+
+.workCard{
+margin: 100px 200px;
   display: grid;
-  grid-template-columns: 125px 75%;
-  grid-template-rows: 50% 50%;
+  align-items: center;
+  grid-template-columns: 1.5fr 1fr;
+  grid-gap: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 25px;
 }
+
+.workCard img {
+  width: 100%;
+  border-radius: 50px;
+  height: 80%;
+  left: 50%;  
+}
+
+.header5{
+ font-size: 46px;
+ font-weight: heavy;
+ /*font-style:oblique;*/
+ padding: 5px !important;
+ color:rgba(243, 128, 21, 0.8);
+ font-family: 'Montserrat', sans-serif;
+}
+
+
+.workCardText p{
+font-size: 20px;
+}
+
 
 
 /* footer */
